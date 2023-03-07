@@ -55,9 +55,9 @@ main{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content:space-between;
+  justify-content:center;
   padding: 20px;
-  background-color: #6C7A96;
+  background-color: white;
 }
 article{
   width: 100%;
@@ -68,26 +68,29 @@ article{
   gap: 3rem;
   align-items: center;
   border: red 2px solid;
-
-
 }
-#front-info {
+#slide1-text {
   font-weight: 700;
+  font-size: 60px;
+  text-align: center; 
 }
-
 #front-menuBtn{
-  padding: 1px;
-
-
+  border-radius: 50px;
+  border: 1px solid ;
+  padding: 10px;
 }
-
-
 #front-drink{
-  height: 650px;
+  height: 550px;
   padding: 0px 20px;
   border: red 2px solid;
 }
-
+#coffee-types{
+  height: 600px;
+  justify-content: center;
+}
+#slide2-text{
+  
+}
 
 
 
